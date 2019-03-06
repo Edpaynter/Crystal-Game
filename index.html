@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <div class="container">
+            <div class="container">
+                <h1 class="display-4 text-center"> Crystal Game</h1>
+            </div>
+            <hr>
+            <br>
+            <br>
+            <div class="container mx-auto row" style="width: 800px;" id="content_holder">
+                <div class="card ml-4 border-0  " style="width: 8rem;" id="card1" >
+                    <img id=img1 class="card-img-top rounded-circle"src="https://ae01.alicdn.com/kf/HTB1jOTkKFXXXXaKXpXXq6xXFXXXp/100x100-100-Twill.jpg">
+                    <div class="card-body text-center" >
+                        <a href="#" class=" question btn btn-primary " id="button1" >?</a>
+                    </div>
+                </div>
+                <div class="card ml-4 border-0  " style="width: 8rem;" id="card2" >
+                    <img id=img2  class="card-img-top rounded-circle" src="https://ae01.alicdn.com/kf/HTB1jOTkKFXXXXaKXpXXq6xXFXXXp/100x100-100-Twill.jpg">
+                    <div class="card-body text-center">
+                        <a href="#" class=" question btn btn-primary " id="button2">?</a>
+                    </div>
+                </div>
+                <div class="card ml-4 border-0  "  style="width: 8rem;"id="card3" >
+                    <img id=img3  class="card-img-top rounded-circle" src="https://ae01.alicdn.com/kf/HTB1jOTkKFXXXXaKXpXXq6xXFXXXp/100x100-100-Twill.jpg">
+                    <div class="card-body text-center">
+                        <a href="#" class=" question btn btn-primary " id="button3">?</a>
+                    </div>
+                </div>
+                <div class="card ml-4 border-0 " style="width: 8rem;" id="card4" >
+                    <img id=img4  class="card-img-top rounded-circle" src="https://ae01.alicdn.com/kf/HTB1jOTkKFXXXXaKXpXXq6xXFXXXp/100x100-100-Twill.jpg">
+                    <div class="card-body text-center">
+                        <a href="#" class=" question btn btn-primary " id="button4">?</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="container mx-auto" id="big-block">
+                <div>
+                    <h4 class="text-center display-9" id="numberAttempt">
+                       Begin
+                    </h4>
+                    <h4 class="text-center display-9" id="wins">
+                        Wins: 0
+                    </h4>
+                    <h4 class="text-center display-9" id="loss">
+                        Losses: 0
+                    </h4>
+
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+    <script src="assets/javascript/game.js">
+    </script>
+
+
+</body>
+</html>
